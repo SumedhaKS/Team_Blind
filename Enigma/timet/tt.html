@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tt.css">
+    <script src="tt.js"></script>
+    <title>Class Scheduler</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Class Scheduler</h2>
+        <table id="scheduleTable">
+            <thead>
+                <tr>
+                    <th>Time/Day</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM - 10:00 AM</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>10:00 AM - 11:00 AM</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>11:00 PM - 11:10 PM (Short Break)</td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td>11:10 AM - 12:10 PM</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>12:10 PM - 1:00 PM (Lunch Break)</td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td>1:00 PM - 2:00 PM</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <td>2:00 PM - 2:10 PM (Short Break)</td>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td>2:10 PM - 3:10 PM</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+                <!-- Add more rows for other time slots -->
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div class="btn">
+      <button id="saveButton" type="button">Save</button>
+      <button id="resetButton" type="button">Reset</button>
+        
+    </div>
+
+    <script src="tt.js"></script>
+</body>
+</html>
